@@ -1,0 +1,36 @@
+.user{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Teko', sans-serif;
+    h1{
+        color: rgb(17, 61, 30);
+    }
+    &__information{
+        background-color: lightgreen;
+        padding: 10px;
+        h2{
+            color: rgb(43, 58, 46);
+        }
+    }
+}
+
+.exit{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.exit:hover{
+    box-shadow: 0 0 9px lightskyblue;
+}
